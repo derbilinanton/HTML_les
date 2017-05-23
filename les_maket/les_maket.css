@@ -46,7 +46,7 @@ body {
 .about-us {
     float: left;
     width: 230px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .about-us h1 {
@@ -63,9 +63,7 @@ body {
 }
 
 .footer { 
-   margin-top: 11px;
-    float: left;
+    clear: both;
     background-color: #333333;
     color: #ffffff;
-    width: 406px;
 }

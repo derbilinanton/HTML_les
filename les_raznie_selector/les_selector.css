@@ -15,7 +15,7 @@ body {
     background: #d9edf7;
 }
 
-.target{
+ul{
     display: flex;
     justify-content: space-between;
     width: 200px;
@@ -28,8 +28,7 @@ body {
     overflow: hidden;
     list-style: none;
 }
-/* черные круги
-.hitbox {
+li{
     position: relative;
     width: 22px;
     height: 22px;
@@ -38,7 +37,7 @@ body {
     background: #333333;
     font-size: 0;
 }
-*//*серыекружки smol*//*
+
 .hitbox{
     width: 10px;
     height: 10px;
@@ -46,8 +45,7 @@ body {
     border-radius: 50%;
     background: #999999;
 }
-*/
-.hitbox {/*серые большие*/
+/*.hitbox{
     position: absolute;
     top: -2px;
     left: -2px;
@@ -57,8 +55,8 @@ body {
     background: #f5f5f5;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-/*
-selector{
+
+.hitbox{
     position: absolute;
     top: 12px;
     left: 11px;

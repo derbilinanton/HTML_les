@@ -63,9 +63,7 @@ body {
 }
 
 .footer { 
-   margin-top: 11px;
-    float: left;
+    clear: both;
     background-color: #333333;
     color: #ffffff;
-    width: 406px;
 }

@@ -58,7 +58,8 @@ div li{
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-span{
+
+.lever span{
     position: absolute;
     top: 12px;
     left: 11px;
@@ -83,5 +84,20 @@ span{
 }
 
 .shooter-2 li:nth-child(5) div:nth-child(2) {
+=======
+ul .miss .lever {
+    display: none;
+}
+
+.shooter-2 li:nth-child(1) .lever  {
+    display: none;
+}
+
+.shooter-2 li:nth-child(5) .lever {
+    display: none;
+}
+
+.shooter-2 li:nth-child(4) .lever {
+>>>>>>> Stashed changes
     display: none;
 }

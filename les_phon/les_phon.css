@@ -7,10 +7,50 @@ html, body {
     width: 300px;
     height: 300px;
     background: #3498db;
-}
+    
+    }
 
-.bg {
+.bg7 {
     height: 300px;
+    background-image: url("/assets/course13/cat_fish_128.png");
+    background-repeat: no-repeat;
+    background-position: 90px 145px;
+}
+.bg6 {
+    height: 300px;
+    background-image: url("/assets/course13/cat_grumpy_128.png");
+    background-repeat: no-repeat;
+    background-position: 15px 125px;
+}
+.bg4 {
+    height: 300px;
+    background-image: url("/assets/course13/cat_walk_128.png");
+    background-repeat: no-repeat;
+    background-position: 80px 80px;
+    }
+.bg5 {
+    height: 300px;
+    background-image: url("/assets/course13/cat_drunk_128.png");
+    background-repeat: no-repeat;
+    background-position: 160px 125px;
+}
+.bg3 {
+    height: 300px;
+    background-image: url("/assets/course13/cat_academy.png");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.bg2 {
+    height: 300px;
+    background-image: url("/assets/course13/star.png");
+    background-repeat: repeat-x;
+    background-position: 20px 10px;
+}
+.bg1 {
+    height: 300px;
+    background-image: url("/assets/course13/star.png");
+    background-repeat: repeat-x;
+    background-position: 20px 270px;*/
 }
 
 /*

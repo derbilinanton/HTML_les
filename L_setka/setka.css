@@ -11,7 +11,69 @@ body {
     font-size: 10px;
     color: white;
 }
-
+.back{
+    width: 450px;
+    height: 333px;
+    margin: 0 auto;
+    
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.background{
+    background: #34495e;
+    height: 170px;
+    }
+.header{
+    min-height: 25px;
+    background: #c0392b;
+    float: left;
+    width: 340px;
+    margin: 10px 50px;
+    padding: 5px; 
+        }
+.menu{
+    min-height: 25px;
+    background: #3498DB;
+    padding: 5px 55px
+        }
+.Promo-1{
+    min-height: 50px;
+    width: 160px;
+    background: #c0392b; 
+    float: left;
+    margin: 10px 0px 10px 50px;
+    padding: 5px
+    }
+.Promo-2{
+    min-height: 50px;
+    width: 160px;
+    background: #c0392b;
+    float: right;
+    margin: 10px 50px 10px 0px;
+    padding: 5px;
+    }
+.colones .layout{
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    min-height: 100px;
+    width: 60px;
+    background: #3498DB;
+    float: left;
+    }
+.colones .colon2{
+    width: 180px;
+    }
+.colones{
+    margin-left: 45px
+    }
+.footer{
+    min-height: 30px;
+    background: #34495e;
+    padding: 5px 0px 0px 55px
+}
 /*
     Используемые цвета:
     #34495e – мокрый асфальт

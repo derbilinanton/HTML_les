@@ -12,10 +12,9 @@ body {
     font-size: 14px;
     line-height: 1.4;
     background: #ecf0f1;
-    
 }
 
-ul{
+ul {
     width: 200px;
     padding: 0;
     margin: 0;
@@ -25,7 +24,6 @@ ul{
 .main-menu > li {
     border-bottom: 2px solid #2c3e50;
     background-color:#ffffff;
-   
 }
 
 .main-menu a {
@@ -35,25 +33,25 @@ ul{
     color:#ffffff;
     padding: 10px 15px 10px 15px;
     background-color: #2980b9;
-     
 }
 
-.main-menu > .active > a{
+.main-menu > .active > a {
     background: #1abc9c;
     border-bottom: 2px solid #2c3e50;
     color: #ffffff;
-   
  }
 
-.active > ul > li > a{
+.active > ul > li > a {
     text-decoration: underline;
     background-color:#ffffff;
     color: #2980b9;
     padding: 0px 15px 10px 15px; 
 }
-.main-menu > .active > ul > li:nth-child(1){
+
+.main-menu > .active > ul > li:nth-child(1) {
     padding-top: 15px;
-    }
-    .main-menu > .active > ul > li:nth-child(3){
+}
+
+.main-menu > .active > ul > li:nth-child(3) {
     padding-bottom: 5px;
-    }
+}

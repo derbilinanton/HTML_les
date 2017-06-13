@@ -32,7 +32,7 @@ color: #ffffff;
 padding-left: 5px; 
 }
 .main-menu .sub-menu{
-    display: block;
+    display: none;
     position: absolute;
     top: 41px;
     left: 140px
@@ -43,5 +43,9 @@ padding-left: 5px;
     background: #1abc9c;
     width: 180px;
 }
-.main-menu .opened{
+/*если не заблокировать ниже стили то будет не на 100% выполнение в академии но 100% правильно по жизни*/
+.main-menu .opened:hover{
     background: #1abc9c}
+.main-menu > li:hover .sub-menu{
+display: block;
+}
